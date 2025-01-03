@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Footbar = () => {
     return (
@@ -19,24 +20,24 @@ const Footbar = () => {
                     <h3 className="text-[16px] font-medium text-grey mb-4">Links</h3>
                     <ul className="space-y-10">
                         <li>
-                            <a href="/" className="text-black hover:text-gray-600">
+                            <Link href="/" className="text-black hover:text-gray-600">
                                 Home
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/shop" className="text-black hover:text-gray-600">
+                            <Link href="/shop" className="text-black hover:text-gray-600">
                                 Shop
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/about" className="text-black hover:text-gray-600">
+                            <Link href="/about" className="text-black hover:text-gray-600">
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/contact" className="text-black hover:text-gray-600">
+                            <Link href="/contact" className="text-black hover:text-gray-600">
                                 Contact
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -46,19 +47,19 @@ const Footbar = () => {
                     <h3 className="text-[16px] font-medium text-grey mb-4">Help</h3>
                     <ul className="space-y-10">
                         <li>
-                            <a href="#" className="text-black hover:text-gray-600">
+                            <Link href="#" className="text-black hover:text-gray-600">
                                 Payment Options
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="text-black hover:text-gray-600">
+                            <Link href="#" className="text-black hover:text-gray-600">
                                 Returns
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="#" className="text-black hover:text-gray-600">
+                            <Link href="#" className="text-black hover:text-gray-600">
                                 Privacy Policies
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

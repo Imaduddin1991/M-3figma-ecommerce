@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Group115: React.FC = () => {
     return (
@@ -16,7 +17,7 @@ const Group115: React.FC = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Card 1 */}
                     <div className="flex flex-col items-center">
-                        <img
+                        <Image
                             src="/Dining.svg"
                             alt="Dining"
                             className="w-full max-w-[300px] h-auto"
@@ -27,7 +28,7 @@ const Group115: React.FC = () => {
                     </div>
                     {/* Card 2 */}
                     <div className="flex flex-col items-center">
-                        <img
+                        <Image
                             src="/Living.svg"
                             alt="Living"
                             className="w-full max-w-[300px] h-auto"
@@ -38,7 +39,7 @@ const Group115: React.FC = () => {
                     </div>
                     {/* Card 3 */}
                     <div className="flex flex-col items-center">
-                        <img
+                        <Image
                             src="/Bedroom.svg"
                             alt="Bedroom"
                             className="w-full max-w-[300px] h-auto"

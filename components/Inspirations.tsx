@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Inspirations: React.FC = () => {
     return (
@@ -16,7 +17,7 @@ const Inspirations: React.FC = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Card 1 */}
                     <div className="flex flex-col items-center">
-                        <img
+                        <Image
                             src="/Dining.svg"
                             alt="Dining"
                             className="w-full max-w-[300px] h-auto"
@@ -26,7 +27,7 @@ const Inspirations: React.FC = () => {
 
                     {/* Card 2 */}
                     <div className="flex flex-col items-center">
-                        <img
+                        <Image
                             src="/Living.svg"
                             alt="Living"
                             className="w-full max-w-[300px] h-auto"
@@ -36,7 +37,7 @@ const Inspirations: React.FC = () => {
 
                     {/* Card 3 */}
                     <div className="flex flex-col items-center">
-                        <img
+                        <Image
                             src="/Bedroom.svg"
                             alt="Bedroom"
                             className="w-full max-w-[300px] h-auto"

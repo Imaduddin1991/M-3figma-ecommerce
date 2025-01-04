@@ -38,7 +38,7 @@ const Navbar = () => {
                     <Image src="/account.svg" alt="Account" width={28} height={28}/>
                 </Link>
                 <Link href="/Search" className="hover:text-gray-600" title="Search">
-                    <Image src="/search.svg" alt="Search" width={28} height={28} />
+                    <Image src="/search.svg" alt="Search" width={50} height={50} />
                 </Link>
                 <Link href="#" className="hover:text-gray-600" title="Wishlist">
                     <Image src="/heart.svg" alt="Wishlist" width={28} height={28} />

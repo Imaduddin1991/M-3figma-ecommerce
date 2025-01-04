@@ -35,16 +35,16 @@ const Navbar = () => {
             {/* Right Navigation Icons */}
             <div className="flex items-center space-x-4 md:space-x-6">
                 <Link href="/Account" className="hover:text-gray-600" title="Account">
-                    <Image src="/account.svg" alt="Account" className="w-[24px] md:w-[28px] h-[24px] md:h-[28px]" />
+                    <Image src="/account.svg" alt="Account" width={28} height={28}/>
                 </Link>
                 <Link href="/Search" className="hover:text-gray-600" title="Search">
-                    <Image src="/search.svg" alt="Search" className="w-[24px] md:w-[28px] h-[24px] md:h-[28px]" />
+                    <Image src="/search.svg" alt="Search" width={28} height={28} />
                 </Link>
                 <Link href="#" className="hover:text-gray-600" title="Wishlist">
-                    <Image src="/heart.svg" alt="Wishlist" className="w-[24px] md:w-[28px] h-[24px] md:h-[28px]" />
+                    <Image src="/heart.svg" alt="Wishlist" width={28} height={28} />
                 </Link>
                 <Link href="#" className="hover:text-gray-600" title="Cart">
-                    <Image src="/cart.svg" alt="Cart" className="w-[24px] md:w-[28px] h-[24px] md:h-[28px]" />
+                    <Image src="/cart.svg" alt="Cart" width={28} height={28} />
                 </Link>
             </div>
         </nav>

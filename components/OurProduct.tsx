@@ -88,7 +88,7 @@ const OurProducts: React.FC = () => {
                     ].map((product) => (
                         <div
                             key={product.id}
-                            className="relative flex flex-col w-[285px] h-[446px] bg-no-repeat bg-center bg-contain hover:text-gray-600"
+                            className="relative flex flex-col w-[285px] h-[446px] bg-no-repeat bg-center bg-contain hover:text-gray-600 hover:"
                             style={{ backgroundImage: `url(${product.img})` }}
                         >
                             {/* Discount Badge */}

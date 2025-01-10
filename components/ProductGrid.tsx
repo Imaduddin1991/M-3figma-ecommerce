@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductGrid: React.FC = () => {
     return (
-        <div className="relative py-16 bg-red-500">
+        <div className="relative py-16">
             {/* Title */}
             <h1 className="text-center text-[40px] font-bold font-poppins text-ltblack mb-12">
                 Our Products

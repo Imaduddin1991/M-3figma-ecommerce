@@ -43,7 +43,7 @@ const Navbar = () => {
                 <Link href="#" className="hover:text-gray-600" title="Wishlist">
                     <Image src="/heart.svg" alt="Wishlist" width={28} height={28} />
                 </Link>
-                <Link href="#" className="hover:text-gray-600" title="Cart">
+                <Link href="/Cart" className="hover:text-gray-600" title="Cart">
                     <Image src="/cart.svg" alt="Cart" width={28} height={28} />
                 </Link>
             </div>
